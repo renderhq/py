@@ -208,16 +208,3 @@ for row_index,row in enumerate(matrix):
     for col_index, val in enumerate(row):
          print(row_index,col_index,val)
          """
-a=[1,2,3]
-b=["jai","shalu","pawan"]
-print(list(zip(a,b)))
-for x,y in zip([10,20,30],[40,50,60]):
-    print(x,y)
-    a=[1,2,3]
-b=["jai","shalu","pawan"]
-city=["vizag","nellore","kadapa"]
-print(list(zip(a,b,city)))
-#creating dict using zips
-keys=["name","age","sex"]
-value=["jai",18,"male"]
-print(dict(zip(keys,value)))
